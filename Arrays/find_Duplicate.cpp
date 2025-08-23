@@ -19,8 +19,8 @@ int findDuplicate(int arr[], int size){
     return slow;
 }
 int main(){
-    int arr[] = {1,2,3,4,1};
+    int arr[5] = {1,2,3,4,1};
     int size = 5;
-    findDuplicate(arr, 5);
+    findDuplicate(arr, size);
     return 0;
 }
